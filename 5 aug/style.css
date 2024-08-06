@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container
+{
+    min-width: 300px;
+   min-height: 340px; 
+    background-color: aquamarine;
+    display: flex;
+    /* flex-direction: column; for mobile display */
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+
+  
+    
+}
+/*Mobile*/
+
+.b1{
+height: 300px;
+width: 250px;
+
+display: flex;
+flex-direction: column;
+gap: 20px;
+justify-content: center;
+align-items: center;
+}
+
+
+.b2{
+    height: 300px;
+    width: 300px;
+    background-color: yellow;
+    }
+
+    .profile{
+        height: 220px;
+        width: 220px;
+        background-color: red;
+        border-radius: 50%;
+        background-image: url(./FaceApp_1714724556281~2.jpg);
+        background-size: cover;
+    }
+
+    .details{
+        height: 50px;
+        width: 220px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        background-color: rgb(32, 158, 158);
+
+    }
+    .eye1,.eye2
+    {
+        background-color: black;
+        height: 25px;
+        width: 25px;
+        border-radius: 50%;
+
+    }
+
+    @media  screen and (max-width:700px) {
+        .container{
+            background-color: blueviolet;
+            flex-direction: column;
+        }
+        .b1{
+            gap: 10px;
+            
+            flex-direction:column-reverse;
+        }
+        .details{
+            width:300px ;
+        }
+    }
