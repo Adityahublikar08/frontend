@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+img{
+    height: 500px;
+    border: 30px solid black;
+    border-radius: 50%;
+   
+    /* filter: blur(1px); */
+    filter:drop-shadow(300px 300px 10px yellow) ;
+    /* filter: brightness(1); */
+    /* filter: contrast(1); */
+    /* filter: grayscale(0); */
+    /* filter: hue-rotate(80deg); */
+    /* filter: invert(0); */
+    /* filter: opacity(1); 0-1 */
+    /* filter: saturate(100) drop-shadow(10px 10px 10px); */
+}
